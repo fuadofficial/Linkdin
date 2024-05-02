@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    background-color: pink;
+    text-align: center;
+    margin: 10px;
+}
+.header span{
+    color: blue;
+    font-size: 17px;
+}
+main{
+    display: flex;
+    height: 90vh;
+}
+.left-section{
+    width: 33.33%;
+    height: 90vh;
+}
+.left-cart{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 30px;
+    margin-left: 290px;
+    width: 200px;
+    height: 300px;
+}
+.backround-img{
+    width: 100%;
+    height:100px ;
+    margin: 5px;
+    color: blue;
+}
+.person-img{
+    width: 50%;
+}
+.middle-section{
+    background-color: lightblue;
+    width: 33.33%;
+    height: 90vh;
+}
+.right-section{
+    background-color: lightcoral;
+    width: 33.33%;
+    height: 90vh;
+}
