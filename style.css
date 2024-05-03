@@ -91,9 +91,71 @@ main {
 /* cender section */
 
 .middle-section {
-    background-color: lightblue;
     width: 33.33%;
     height: 90vh;
+    padding: 0 5px;
+}
+
+.middle-section .firt-cart {
+    width: 100%;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 4px;
+}
+
+.middle-section .second-cart {
+    width: 100%;
+    height: 260px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 4px;
+}
+
+.middle-section .third-cart {
+    width: 100%;
+    height: 260px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 4px;
+}
+
+.middle-section .section {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.middle-section .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-section .top i {
+    font-size: 20px;
+}
+
+.middle-section hr {
+    color: gray;
+    width: 90%;
+    margin-left: 23px;
+}
+
+.middle-section .bottom p {
+    margin-left: 10px;
+}
+
+.middle-section .bottom button {
+    margin-left: auto;
+    width: 70px;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(138, 198, 241);
 }
 
 /* right section */
