@@ -294,7 +294,7 @@ main {
 }
 
 .middle-section .third-cart .heading img {
-    width: 80px;
+    width: 60px;
 }
 
 .middle-section .third-cart .heading .name {
@@ -337,7 +337,96 @@ main {
 /* right section */
 
 .right-section {
-    background-color: lightcoral;
+    padding: 0 5px 5px 10px;
     width: 33.33%;
     height: 90vh;
+}
+
+.right-section .contents .first-p {
+    font-size: 16px;
+}
+
+.right-section .contents .first-p i {
+    margin-left: 110px;
+    color: black;
+}
+
+.right-section .contents p {
+    color: gray;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.right-section .contents h4 {
+    margin-top: 5px;
+}
+
+.right-section .img img {
+    width: 330px;
+    height: 230px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 5px;
+}
+
+.right-section .icons .main-p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.right-section .icons .main-p span {
+    color: gray;
+    font-size: 12px;
+}
+
+.right-section .icons .first-h {
+    display: flex;
+}
+
+.right-section .icons .first-h img {
+    width: 60px;
+    height: 50px;
+}
+
+.right-section .icons .first-h p {
+    font-size: 10px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.right-section .icons .first-h p span {
+    font-size: 15px;
+    color: black;
+}
+
+.right-section .icons .first-h i {
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.right-section .icons .second-h {
+    display: flex;
+    margin-top: 10px;
+}
+
+.right-section .icons .second-h img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.right-section .icons .second-h p {
+    font-size: 10px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.right-section .icons .second-h p span {
+    font-size: 15px;
+    color: black;
+}
+
+.right-section .icons .second-h i {
+    margin-left: auto;
+    margin-right: 150px;
 }
