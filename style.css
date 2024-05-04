@@ -159,6 +159,9 @@ main {
     position: relative;
 }
 
+/* middle section second cart */
+
+
 .second-cart .top {
     display: flex;
 }
@@ -219,7 +222,7 @@ main {
 }
 
 .second-cart .bottom-section {
-    background-color: rgb(228, 223, 223);
+    background-color: rgb(237, 240, 240);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -241,6 +244,7 @@ main {
 
 .second-cart .bottom-section .first-person span {
     font-size: 11px;
+    font-weight: bold;
     color: black;
 }
 
@@ -273,12 +277,61 @@ main {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
+/* middle section first cart */
+
+
 .middle-section .third-cart {
     width: 100%;
-    height: 280px;
+    height: 440px;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 4px;
+}
+
+.middle-section .third-cart .heading {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section .third-cart .heading img {
+    width: 80px;
+}
+
+.middle-section .third-cart .heading .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.middle-section .third-cart .heading .name span {
+    color: gray;
+    font-size: 10px;
+}
+
+.middle-section .third-cart .heading button {
+    margin-left: auto;
+    margin-right: 20px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(48, 168, 238);
+    color: rgb(33, 162, 243);
+    border-radius: 3px;
+}
+
+.middle-section .third-cart .content {
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.middle-section .third-cart .content span {
+    color: rgb(28, 129, 230);
+}
+
+.middle-section .third-cart .img img {
+    width: 100%;
+    padding: 10px;
+    height: auto;
 }
 
 /* right section */
